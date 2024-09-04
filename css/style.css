@@ -1,0 +1,361 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/image/start.webp);
+    background-size: cover;
+    
+    
+    
+}
+.navbar{
+    height: 15% ;
+    width: 100% ;
+    display: flex;
+}
+.logo{
+    height: 100% ;
+    width: 20%;
+
+
+}
+.logo img{
+    height: 60% ;
+    width:  70%;
+}
+
+
+.nav{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: flex-end;
+    
+}
+
+.nav li{
+    list-style: none;
+    margin: 10px;
+
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+
+}
+.nav button{
+    height: 50px ;
+    width: 80px ;
+    border-radius: 50px;
+    background-color: red;
+    border-color: none;
+    
+}
+.page1{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: larger;
+    font-weight: 900;
+    color: rgb(165, 152, 152);
+    
+}
+
+.page1 button{
+    height: 70px;
+    width: 20%;
+    border-radius:50px ;
+    background-color: rgb(241, 8, 8);
+
+}
+.page2 h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgb(87, 83, 83);
+    font-size: xx-large;
+
+}
+.page2 p{
+    display: flex;
+    justify-content: center;
+    align-content: end;
+    color: rgb(138, 127, 127);
+    font-size:x-large medium;
+}
+
+.page2-img{
+    height: 80%;
+    width: 90%;
+    display: flex;
+
+
+}
+
+.conveniece{
+    height: 100%;
+    width: 30%;
+    
+    
+}
+
+.conveniece img{
+    height: 40%;
+    width: 85%;
+    display: flex;
+    
+}
+.family img{
+    height:98vh ;
+    width: 50%;
+    
+}
+.page3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+   
+.family img{
+    height: 100%;
+    width: 90%;
+}
+.max{
+    margin-right: 30px;
+}
+
+.page4 h1{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.page4 p{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.page4photo{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 200px;
+    
+}
+
+.page5 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.page5money{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 60%;
+}
+    
+.page6{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/image/end.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page6 h1{
+    font-size: xx-large;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgb(59, 53, 53);
+}
+
+.page6 p{
+    font-size: larger;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgb(122, 114, 114);
+}
+
+.page6 input{
+    height: 35px;
+    width: 190px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+}
+.page6 p{
+    font-size: larger;
+    font-weight: 900;
+    color: grey;
+}
+
+.digga{
+    height:50% ;
+    width:50% ;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: -70px;
+
+
+
+
+
+}
+
+.page7 h1{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mark1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.mark2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-top: -15%;
+}
+
+.mark3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60%;
+    margin-top: -15%;
+}
+
+.mark4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80%;
+    margin-top: -13%;
+}
+.mark{
+    display: flex;
+    flex-direction: column;
+    margin-left:10% ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mark5 button{
+    height: 30px;
+    width: 100px;
+
+}
+
+
+
+
+
+
+.mark5 input{
+    height:30px ;
+    width: 75px;
+    background-color: red;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
