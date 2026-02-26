@@ -1,0 +1,14 @@
+name : ci pipline
+on :
+push:
+branches: [main]
+jobs :
+build :
+runs-on: ubuntu-latest
+steps:
+-name : checkout code
+use : action/checkout@v3
+-name: install dependancies 
+run : npm install
+-name : run test
+run : npm test
